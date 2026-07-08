@@ -31,9 +31,12 @@ Validar API de publicaciones
 
 Validar interfaz web
     [Tags]    regresion
-    Open Browser    ${UI_URL}    Chrome
+    ${options}=    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
+    Call Method    ${options}    add_argument    --headless
+    Call Method    ${options}    add_argument    --no-sandbox
+    Call Method    ${options}    add_argument    --disable-dev-shm-usage
+    Open Browser    ${UI_URL}    Chrome    options=${options}
     Title Should Be    Google
-    Sleep    5s
     Close Browser
 
 
