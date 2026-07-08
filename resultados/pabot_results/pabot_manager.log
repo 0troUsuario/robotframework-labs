@@ -1,0 +1,26 @@
+[INFO]    Initialized logging in resultados\pabot_results
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 started.
+[DEBUG]   2026-07-08 05:02:57.599635 [PID:26756] [0] [ID:0] EXECUTING Suites.Api.06 Api Tests
+[DEBUG]   2026-07-08 05:02:57.599825 [PID:30136] [1] [ID:1] EXECUTING Suites.Ui.00 Smoke Browser
+[INFO]    2026-07-08 05:02:59.055500 [PID:26756] [0] [ID:0] PASSED Suites.Api.06 Api Tests in 1.4 seconds
+[DEBUG]   2026-07-08 05:02:59.064147 [PID:19324] [0] [ID:2] EXECUTING Suites.Ui.04 Login
+[INFO]    2026-07-08 05:03:02.354812 [PID:30136] [1] [ID:1] PASSED Suites.Ui.00 Smoke Browser in 4.8 seconds
+[DEBUG]   2026-07-08 05:03:02.361374 [PID:30048] [1] [ID:3] EXECUTING Suites.Ui.05 Login Ddt
+[DEBUG]   2026-07-08 05:03:04.100219 [PID:19324] [0] [ID:2] still running Suites.Ui.04 Login after 5.0s
+[DEBUG]   2026-07-08 05:03:07.378865 [PID:30048] [1] [ID:3] still running Suites.Ui.05 Login Ddt after 5.0s
+[DEBUG]   2026-07-08 05:03:14.139920 [PID:19324] [0] [ID:2] still running Suites.Ui.04 Login after 15.0s
+[DEBUG]   2026-07-08 05:03:17.418577 [PID:30048] [1] [ID:3] still running Suites.Ui.05 Login Ddt after 15.0s
+[INFO]    2026-07-08 05:03:27.923623 [PID:19324] [0] [ID:2] PASSED Suites.Ui.04 Login in 28.9 seconds
+[INFO]    2026-07-08 05:03:28.062816 [PID:30048] [1] [ID:3] PASSED Suites.Ui.05 Login Ddt in 25.7 seconds
+[INFO]    10 tests, 10 passed, 0 failed, 0 skipped.
+[INFO]    ===================================================
+[INFO]    Output:  C:\Users\javie\OneDrive\Desktop\lab-ing\robotframework-labs\resultados\output.xml
+[INFO]    Log:     C:\Users\javie\OneDrive\Desktop\lab-ing\robotframework-labs\resultados\log.html
+[INFO]    Report:  C:\Users\javie\OneDrive\Desktop\lab-ing\robotframework-labs\resultados\report.html
+[DEBUG]   Finalizing Pabot execution...
+[DEBUG]   Stopping PabotLib process
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 stopped.
+[DEBUG]   PabotLib process stopped
+[INFO]    Total testing: 1 minute 0.80 seconds
+[INFO]    Elapsed time:  31.34 seconds
+[DEBUG]   Logs flushed successfully.

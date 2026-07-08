@@ -1,0 +1,18 @@
+--name Suites
+--suite Suites.Ui.05 Login Ddt
+--variable CALLER_ID:e886ec367eeb4ccaa236bd867f2ce04f
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:1
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:3
+--variable PABOTLASTLEVEL:
+--outputdir resultados\pabot_results\3
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+api
+ui

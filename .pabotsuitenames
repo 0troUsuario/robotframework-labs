@@ -1,0 +1,8 @@
+datasources:0cd1be5eb7fb950efac7e040fe7590a9fd5f391e
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:9d5a54123a132880871358a08ad0c55aefe5eab3
+--suite Suites.Api.06 Api Tests
+--suite Suites.Ui.00 Smoke Browser
+--suite Suites.Ui.04 Login
+--suite Suites.Ui.05 Login Ddt

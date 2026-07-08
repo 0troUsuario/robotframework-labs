@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.13.5 on win32)" generated="2026-07-08T05:02:58.005195" rpa="false" schemaversion="5">
+<suite id="s1" name="Suites">
+<suite id="s1-s1" name="Ui" source="C:\Users\javie\OneDrive\Desktop\lab-ing\robotframework-labs\ui">
+<suite id="s1-s1-s1" name="00 Smoke Browser" source="C:\Users\javie\OneDrive\Desktop\lab-ing\robotframework-labs\ui\00_smoke_browser.robot">
+<test id="s1-s1-s1-t1" name="Abrir Navegador De Prueba" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-08T05:02:58.412699" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com'.</msg>
+<arg>https://www.saucedemo.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-08T05:02:58.412388" elapsed="1.358502"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2026-07-08T05:02:59.776469" level="INFO">Page title is 'Swag Labs'.</msg>
+<arg>Swag Labs</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2026-07-08T05:02:59.771284" elapsed="0.005364"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-07-08T05:02:59.777104" elapsed="2.291978"/>
+</kw>
+<status status="PASS" start="2026-07-08T05:02:58.411098" elapsed="3.658074"/>
+</test>
+<status status="PASS" start="2026-07-08T05:02:58.051664" elapsed="4.017947"/>
+</suite>
+<status status="PASS" start="2026-07-08T05:02:58.050358" elapsed="4.019790"/>
+</suite>
+<status status="PASS" start="2026-07-08T05:02:58.007057" elapsed="4.063437"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
+<stat name="Ui" id="s1-s1" pass="1" fail="0" skip="0">Suites.Ui</stat>
+<stat name="00 Smoke Browser" id="s1-s1-s1" pass="1" fail="0" skip="0">Suites.Ui.00 Smoke Browser</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
